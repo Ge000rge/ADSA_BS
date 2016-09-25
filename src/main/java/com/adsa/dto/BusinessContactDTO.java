@@ -7,7 +7,7 @@ package com.adsa.dto;
 public class BusinessContactDTO {
 	private String firstName;
 	private String lastName;
-	private String nickname;
+	private String nickName;
 	private String phone;
 	private String mobile;
 	private String email;
@@ -25,12 +25,6 @@ public class BusinessContactDTO {
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
-	}
-	public String getNickname() {
-		return nickname;
-	}
-	public void setNickname(String nickname) {
-		this.nickname = nickname;
 	}
 	public String getPhone() {
 		return phone;
@@ -55,6 +49,12 @@ public class BusinessContactDTO {
 	}
 	public void setNotes(String notes) {
 		this.notes = notes;
+	}
+	public String getNickName() {
+		return nickName;
+	}
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
 	}
 	
 }

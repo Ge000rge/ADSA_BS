@@ -4,7 +4,7 @@ package com.adsa.dto;
  * @author alberto.garcia
  *
  */
-//TODO atributos split_start, split_end, isSplit
+//TODO ¿considerar tambien los atributos split_start, split_end, isSplit?
 public class DaysOpeningHoursDTO {
 	private Long type;
 	private String start;
